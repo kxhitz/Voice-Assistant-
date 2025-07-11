@@ -41,7 +41,6 @@ This project is a **Voice-Activated AI Chat Assistant** built using Python. It e
 
 Install the required libraries using pip:
 
-```bash
 pip install openai pyttsx3 speechrecognition
 
 You may also need to install pyaudio. For macOS:
