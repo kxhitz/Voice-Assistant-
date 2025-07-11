@@ -7,6 +7,7 @@ This project is a **Voice-Activated AI Chat Assistant** built using Python. It e
 ## 📁 Project Structure
 
 .
+
 ├── main.py # Entry point – captures voice, interacts with GPT, and speaks the response
 
 ├── online.py # Handles OpenAI API calls to fetch AI-generated responses
