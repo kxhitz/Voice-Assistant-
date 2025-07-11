@@ -8,7 +8,9 @@ This project is a **Voice-Activated AI Chat Assistant** built using Python. It e
 
 .
 ├── main.py # Entry point – captures voice, interacts with GPT, and speaks the response
+
 ├── online.py # Handles OpenAI API calls to fetch AI-generated responses
+
 ├── conv.py # Handles voice input and text-to-speech output
 
 
