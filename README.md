@@ -44,10 +44,13 @@ Install the required libraries using pip:
 pip install openai pyttsx3 speechrecognition
 
 You may also need to install pyaudio. For macOS:
+
 brew install portaudio
+
 pip install pyaudio
 
-🔐 API Key
+## 🔐 API Key
+
 This project uses OpenAI's GPT model.
 
 Get your API key from OpenAI
@@ -56,19 +59,18 @@ Replace "YOUR_API_KEY" in online.py with your actual API key:
 
 openai.api_key = "YOUR_API_KEY"
 
-
-🧠 Sample Usage
+## 🧠 Sample Usage
 
 python main.py
 
-
-📣 Example conversation:
+##📣 Example conversation:
 
 You: "What's the capital of France?"
 
 AI: "The capital of France is Paris."
 
-✨ Customization Ideas
+## ✨ Customization Ideas
+
 Add wake-word detection (e.g., "Hey Assistant")
 
 GUI interface using tkinter or PyQt
@@ -77,17 +79,20 @@ Add memory or conversation history
 
 Integrate with other APIs (weather, news, etc.)
 
-🛠️ Troubleshooting
+## 🛠️ Troubleshooting
+
 Microphone not working? Check permissions and device input settings.
 
 Speech not recognized? Make sure you're speaking clearly in a quiet environment.
 
 No voice output? Ensure your system's TTS engine is set up properly.
 
-📄 License
+## 📄 License
+
 This project is open-source and available under the MIT License.
 
-🙋‍♂️ Author
+## 🙋‍♂️ Author
+
 Kshitij Singh
 
 Feel free to reach out for feedback, contributions, or collaboration ideas!
